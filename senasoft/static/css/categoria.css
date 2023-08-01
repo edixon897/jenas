@@ -1,0 +1,56 @@
+.categorias {
+  display: flex;
+  width: 220px;
+  flex-wrap: wrap;
+  justify-content: first baseline; /* Ajusta esto según la alineación que desees */
+  gap: 100px;
+  margin-top: 80px; /* Ajusta este valor según el espacio que deseas entre el nav y el contenido */
+  padding: 0 80px;
+  box-sizing: content-box;
+  
+}
+.cont-categorias{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Crea 5 columnas de ancho igual */
+  grid-gap: 10px;
+  margin: 20px;
+  
+}
+
+.prod-categorias {
+  width: 220px;
+  margin: 3px;
+  background-color: #fff;
+  border: 1px solid #5748d8;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.prod-categorias:hover {
+  transform: translateY(-5px);
+}
+
+.imagen-categoria {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info-categoria {
+  padding: 10px;
+}
+
+.titulo-categoria {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+.descripcion-categoria {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 5px;
+}

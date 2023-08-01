@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+
+    <link rel="stylesheet" href="../static/css/barra-nav.css" />
+    <link rel="stylesheet" href="../static/css/categoria.css" />
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="../static/js/index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="buscador">
+            <input type="text" id="termino-busqueda" placeholder="Ingresa tu búsqueda">
+            <div class="btn">
+                <i class="fas fa-search icon"></i>
+            </div>
+        </div>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+            <li class="nav-menu-item">
+                <a href="#" class="nav-menu-link nav-link nav-menu-link_active"
+                  >usuario</a
+                >
+              </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Guadados</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Iniciar sesion</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">Crear usuario</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <ul id="resultados">
+      </ul>
+      <header>
+          <div class="categorias">
+              <div class="cont-categorias">
+                
+                  <div class="prod-categorias">
+                      <a href="#"><img src="../static/imagen/nike-5128118_640.jpg" alt="" class="imagen-categoria"></a>
+                      <div class="info-categoria">
+                          <h5 class="titulo-categoria"> ejemplo</h5>
+                          <p class="descripcion-categoria">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </header>
+    </main>
+  </body>
+</html>
